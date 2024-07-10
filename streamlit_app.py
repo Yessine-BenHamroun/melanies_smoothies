@@ -1,4 +1,4 @@
-# Import python packages
+k# Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
 import requests
@@ -28,7 +28,7 @@ st.stop()
 
 pd_df=my_dataframe.to_pandas()
 st.dataframe(pd_df)
-st.stop()
+#st.stop()
 
 
 options = st.multiselect(
